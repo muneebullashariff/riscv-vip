@@ -41,7 +41,6 @@ class regfile extends uvm_object;
   extern virtual function void set_m_x_regfile_array(x_regfile_array_t x);
   extern virtual function x_regfile_array_t get_m_x_regfile_array();
   extern virtual function xlen_t get_x(int unsigned i);
-
 endclass: regfile 
 
 //-----------------------------------------------------------------------------
